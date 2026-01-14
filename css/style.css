@@ -1,0 +1,15 @@
+.tripday-flexbox{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  
+  height:70px;
+
+}
+
+.tripday{
+  color:white;
+  font-weight:bold;
+  font-size:24px;
+
+}
