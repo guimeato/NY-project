@@ -1,0 +1,32 @@
+.header{
+  display:flex;
+  position:fixed;
+  color:white;
+  top:0;
+  left:0;
+  right:0;
+  height:100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:30px;
+  font-weight:bold;
+  font-size:24px;
+}
+
+.right-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:18px;
+}
+
+.header-tripday{
+  margin-right:40px;
+}
+
