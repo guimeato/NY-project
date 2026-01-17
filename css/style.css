@@ -13,3 +13,35 @@
   font-size:24px;
 
 }
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 100px;
+  column-gap:100px;
+  padding-left:95px;
+  padding-top:200px;
+}
+
+.inicial-flexbox-tripday{
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+  height:200px;
+  width:250px;
+}
+
+.inicial-flexbox-tripday:hover{
+  box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+  
+}
+
+.inicial-tripday-photo{
+  height:170px;
+  width:250px;
+}
+
+.inicial-flexbox-tripday-info{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
