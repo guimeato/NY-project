@@ -14,12 +14,23 @@
   margin-bottom:20px;
 }
 
+.page-dia2 .tripday{
+  color:white;
+}
+
 .trip{
   display:flex;
   height:170px;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-  background-color:rgba(4, 231, 136, 0.550);
+  
   margin-top:10px;
+}
+.page-dia1 .trip{
+  background-color:rgba(4, 231, 136, 0.550);
+}
+
+.page-dia2 .trip{
+  background-color:rgb(255, 0, 0,0.7);
 }
 /*laranja background-color:rgba(231, 140, 4, 0.4)*/
 
@@ -35,6 +46,10 @@
   align-items: center;
   width:100%;
 }
+.page-dia2 .trip-info{
+  color:white;
+}
+
 
 .trip-name{
   display:flex;
@@ -67,15 +82,26 @@
   margin-bottom:20px;
 }
 
+
+
 .open-hour{
   color:green;
-  font-weight:600;
+  font-weight:700;
   margin-right:5px;
+
+  background-color: rgb(255, 255, 255,0.5);
+  border-radius: 15px;
+  padding:1px 5px;
 }
+
 .close-hour{
   color:red;
-  font-weight:bold;
+  font-weight:700;
   margin-left:5px;
+
+  background-color: rgb(255, 255, 255,0.5);
+  border-radius: 15px;
+  padding:1px 5px;
 }
 
 .trip-link-buttons{
@@ -117,6 +143,7 @@
   
   border:none;
   background-color: rgb(8, 201, 8);
+  color:black;
 }
 
 .grid-container{

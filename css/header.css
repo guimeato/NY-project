@@ -11,7 +11,7 @@
   border-bottom-style: solid;
   border-bottom-width: 0.1px;
   z-index:1;
-  background-color:rgba(255,255,255,0.15);
+  background-color:rgba(255,255,255,0.45);
   font-weight:bold;
 }
 .left-section{
@@ -20,6 +20,7 @@
   align-items: center;
   margin-left:30px;
   font-size:24px;
+
 }
 
 .right-section{
@@ -37,9 +38,19 @@
   padding-right:5px;
   border-radius:8px;
 }
+.left-section:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left:5px;
+  padding-right:5px;
+  border-radius:8px;
 
+}
 .header-tripday:hover{
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
 }
+
 
