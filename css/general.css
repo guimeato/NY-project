@@ -1,11 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+}
 body{
   background-image:url('../assets/NY-background-photo.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height:100vh;
+  width: 100%;
   z-index:0;
-  font-family:roboto;
+  font-family:'roboto';
 }
 
 a{
@@ -24,6 +29,5 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 

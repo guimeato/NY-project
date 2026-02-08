@@ -1,56 +1,109 @@
 .header{
   display:flex;
-  position:fixed;
+  position:sticky;
   color:white;
   top:0;
-  left:0;
-  right:0;
-  height:70px;
-  justify-content: space-between;
+  min-height:70px;
+  width:100%;
+  justify-content:space-between;
   align-items: center;
   border-bottom-style: solid;
   border-bottom-width: 0.1px;
   z-index:1;
-  background-color:rgba(255,255,255,0.45);
-  font-weight:bold;
+  background:linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.05)
+    );
+  color:black;
 }
 .left-section{
   display:flex;
-  justify-content: center;
   align-items: center;
-  margin-left:30px;
-  font-size:24px;
+  width:auto;
+  font-size:1.5rem;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.left-section-link{
+  width:auto;
+}
+
+.left-section-link:hover{
+  cursor: pointer;
+  box-shadow: 0px 1px 4px rgba(0,0,0,1);
+  border-radius:8px;
+  padding:3px 3px 3px 6px;
 
 }
 
 .right-section{
   display:flex;
-  justify-content: center;
   align-items: center;
-  font-size:17px;
+  font-size:1rem;
+  width:auto;
+}
+
+
+.header nav ul{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px;
+  padding-right:30px;
 }
 
 .header-tripday{
-  margin-right:25px;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left:5px;
   padding-right:5px;
   border-radius:8px;
 }
-.left-section:hover{
-  cursor: pointer;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left:5px;
-  padding-right:5px;
-  border-radius:8px;
 
-}
 .header-tripday:hover{
   cursor: pointer;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+  box-shadow: 0px 1px 4px rgba(0,0,0,1);
 }
 
-
+/*@media (max-width:500px){
+  .header{
+    height:300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .left-section{
+    font-size:80px;
+  }
+  .right-section{
+    font-size:30px;
+    padding-top:50px;
+  }
+  .header-tripday{
+    padding-left:30px;
+  }
+}
+*/
+@media (max-width:500px){
+  .header{
+    flex-direction: column;
+    gap:20px;
+    padding: 10px 0px;
+  }
+  .header nav ul{
+    gap:10px;
+    text-align: center;
+    padding:0;
+  }
+  .right-section{
+    padding-left:20px;
+  }
+  
+}
+@media (max-width:650px){
+  .header nav ul{
+    width:90%;
+  }
+}

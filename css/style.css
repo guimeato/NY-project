@@ -88,8 +88,6 @@
   margin-bottom:20px;
 }
 
-
-
 .open-hour{
   color:green;
   font-weight:700;
@@ -155,20 +153,21 @@
 .grid-container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 100px;
-  column-gap:100px;
-  padding-left:95px;
-  padding-top:200px;
+  justify-items: center;
+  padding:40px;
+  gap:40px;
+  margin: 0 auto;
 }
 
 .inicial-flexbox-tripday{
   box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
   height:200px;
-  width:250px;
+  min-width:250px;
+ 
 }
 
 .inicial-flexbox-tripday:hover{
-  box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+  box-shadow: 4px 4px 7px rgba(0,0,0,1);
 }
 
 .inicial-tripday-photo{
@@ -180,5 +179,20 @@
   display:flex;
   align-items: center;
   justify-content: center;
-  color:white;
+  color:black;
+  font-weight:bold;
+  background: linear-gradient( rgb(238, 168, 38,0.6),rgb(218, 183, 119,1) ); 
+  height:13%;
+}
+
+@media (max-width:900px) {
+  .grid-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width:650px){
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
 }
