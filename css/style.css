@@ -1,27 +1,24 @@
 .tripday-flexbox{
   display:flex;
   flex-direction: column;
+  height:auto;
 }
 
 .tripday{
   display:flex;
-  color:black;
+  color:white;
   font-weight:bold;
   font-size:40px;
   align-items: center;
   justify-content: center;
-  margin-top:80px;
-  margin-bottom:20px;
+  padding-top:10px;
+  padding-bottom:20px;
 }
 
-.page-dia3 .tripday,
-.page-dia2 .tripday{
-  color:white;
-}
 
 .trip{
   display:flex;
-  height:170px;
+  min-height:170px;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
   
   margin-top:10px;
@@ -45,16 +42,13 @@
 }
 
 .trip-info{
-  color:black;
+  color:white;
   font-size:20px;
   justify-content: center;
   align-items: center;
   width:100%;
 }
-.page-dia3 .trip-info,
-.page-dia2 .trip-info{
-  color:white;
-}
+
 
 
 .trip-name{
