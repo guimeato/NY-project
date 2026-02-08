@@ -2,6 +2,7 @@
   display:flex;
   flex-direction: column;
   height:auto;
+  gap:15px;
 }
 
 .tripday{
@@ -20,9 +21,12 @@
   display:flex;
   min-height:170px;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-  
-  margin-top:10px;
 }
+
+.trip-photo-link{
+  line-height: 0;
+}
+
 .page-dia1 .trip{
   background-color:rgba(4, 231, 136, 0.550);
 }
@@ -47,6 +51,7 @@
   justify-content: center;
   align-items: center;
   width:100%;
+  height:100%;
 }
 
 
@@ -144,6 +149,8 @@
   color:black;
 }
 
+/* ------- PAGINA PRINCIPAL ------- */
+
 .grid-container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -184,9 +191,29 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width:680px){
+  .trip{
+    flex-direction: column;
+  }
+  .trip-photo{
+    width:100%;
+    height:170px;
+    object-fit: cover;
+    object-position: center;
+    
+   }
+   .tripday-flexbox{
+    gap:30px;
+   }
+   .trip-link-buttons{
+    padding-bottom:10px;
+   }
+}
 
 @media (max-width:650px){
   .grid-container{
     grid-template-columns: 1fr;
   }
 }
+
+
