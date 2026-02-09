@@ -38,6 +38,10 @@
 .page-dia3 .trip{
   background-color: rgb(0, 0, 255,0.5);
 }
+
+.page-dia4 .trip{
+  background-color: rgba(0,0,0,0.6);
+}
 /*laranja background-color:rgba(231, 140, 4, 0.4)*/
 
 .trip-photo{
