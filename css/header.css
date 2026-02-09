@@ -71,7 +71,7 @@
 
 @media (max-width:650px){
   .header nav ul{
-    width:100%;
+    width:90%;
   }
 }
 @media (max-width:500px){
@@ -84,12 +84,9 @@
     gap:10px;
     text-align: center;
     padding:0;
-    flex-wrap: nowrap;
-    font-size:11px;
   }
   .right-section{
     padding-left:20px;
-    padding-right:12px;
   }
   
 }
