@@ -53,6 +53,14 @@
   background-color: rgba(117, 55, 20,0.6);
 }
 
+.page-dia8 .trip{
+  background-color: rgba(12, 221, 236, 0.6);
+}
+
+.page-extra .trip{
+  background-color: rgba(209, 11, 216, 0.6);
+}
+
 
 .trip-photo{
   height: 170px;
